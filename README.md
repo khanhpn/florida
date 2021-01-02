@@ -11,3 +11,23 @@ https://www.djangoproject.com/
 https://www.python.org/
 
 ## Postgresql 13
+
+# How to install this project
+
+### Step1 - Install library
+
+- pip install django-environ
+
+### Step2
+
+### Step3
+
+### Step4
+
+### Step5
+
+### Step6
+
+### Step7
+
+### Step8
