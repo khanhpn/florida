@@ -1,3 +1,39 @@
 .section-background-homepage {
   background-image: url("../images/anotherInteriorBackground_02.png");
 }
+
+/* homepage english mass */
+.section-english-mash {
+  padding: 0px !important;
+  text-align: center;
+}
+.wrap-mass-items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.mass-item {
+  display: flex;
+  width: 47%;
+  padding: 10px;
+}
+.wrap-mass-more {
+  display: flex;
+  justify-content: center;
+}
+.btn-more {
+  padding: 10px;
+  border: 1px solid #7c2335;
+  border-radius: 24px;
+  width: 140px;
+  text-align: center;
+  background: #7c2335;
+  cursor: pointer;
+  outline: none;
+}
+.btn-more:hover {
+  background: #e61841;
+}
+.btn-more:active {
+  box-shadow: 1px 3px #ee5c79;
+}
