@@ -9,12 +9,9 @@
       name="description"
       content="The mission of St. Matthew Catholic Church is to be a welcoming community that encounters Christ through prayer, sacraments, and charitable service."
     />
-    <link
-      rel="shortcut icon"
-      href="https://d2y1pz2y630308.cloudfront.net/15071/favicon.ico"
-    />
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" />
     <script
-      src="https://d2y1pz2y630308.cloudfront.net/agnes/resources/scripts/jquery-2.2.3.min.js"
+      src="{% static 'javascript/library/jquery-2.2.3.min.js' %}"
       type="text/javascript"
     ></script>
     <script>
@@ -22,83 +19,87 @@
       var $ = $ec; // Reassigns the $ to jQuery, but can be overwritten if another version of jQuery is loaded
     </script>
     <script
-      src="https://d2y1pz2y630308.cloudfront.net/agnes/resources/scripts/jquery-ui-1.12.1.custom.min.js"
+      src="{% static 'javascript/library/jquery-ui-1.12.1.custom.min.js' %}"
       type="text/javascript"
     ></script>
     <script
-      src="https://d2y1pz2y630308.cloudfront.net/agnes/resources/scripts/jquery.ui.touch-punch.min.js"
+      src="{% static 'javascript/library/jquery.ui.touch-punch.min.js' %}"
       type="text/javascript"
     ></script>
     <script
-      src="https://d2y1pz2y630308.cloudfront.net/agnes/resources/scripts/modernizer.custom.2.7.1.js"
+      src="{% static 'javascript/library/modernizer.custom.2.7.1.js' %}"
       type="text/javascript"
     ></script>
+    <script
+      type="text/javascript"
+      src="{% static 'javascript/library/hammer.min.js' %}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{% static 'javascript/library/photorotator.js' %}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{% static 'javascript/library/photoswipe-init.js' %}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{% static 'javascript/library/photoswipe.js' %}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{% static 'javascript/library/photoswipe-ui-default.js' %}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{% static 'javascript/library/production.js' %}"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="{% static 'javascript/library/moment.js' %}"
+    ></script>
+    <script
+      type="text/javascript"
+      src="{% static 'javascript/library/moment-timezone-with-data-2012-2022.js' %}"
+    ></script>
+
     <link
       rel="stylesheet"
-      href="https://d2y1pz2y630308.cloudfront.net/agnes/resources/css/jquery-ui-1.12.1/jquery-ui.min.css"
+      href="{% static 'css/library/jquery-ui.min.css' %}"
       type="text/css"
     />
     <link
       rel="stylesheet"
-      href="https://d2y1pz2y630308.cloudfront.net/agnes/resources/css/jquery-ui-1.12.1/jquery-ui.structure.min.css"
+      href="{% static 'css/library/jquery-ui.structure.min.css' %}"
       type="text/css"
     />
     <link
       rel="stylesheet"
-      href="https://d2y1pz2y630308.cloudfront.net/agnes/resources/css/jquery-ui-1.12.1/jquery-ui.theme.min.css"
+      href="{% static 'css/library/jquery-ui.theme.min.css' %}"
       type="text/css"
     />
 
     <link
       rel="stylesheet"
-      href="https://d2y1pz2y630308.cloudfront.net/15071/theme.css"
-      type="text/css"
-    />
-
-    <script
-      type="text/javascript"
-      src="https://d2y1pz2y630308.cloudfront.net/agnes/resources/scripts/hammer.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://d2y1pz2y630308.cloudfront.net/agnes/resources/scripts/photorotator.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://d2y1pz2y630308.cloudfront.net/agnes/resources/lightbox/dist/photoswipe-init.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://d2y1pz2y630308.cloudfront.net/agnes/resources/lightbox/dist/photoswipe.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://d2y1pz2y630308.cloudfront.net/agnes/resources/lightbox/dist/photoswipe-ui-default.js"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://d2y1pz2y630308.cloudfront.net/agnes/resources/lightbox/dist/photoswipe.css"
+      href="{% static 'css/library/theme.css' %}"
       type="text/css"
     />
     <link
       rel="stylesheet"
-      href="https://d2y1pz2y630308.cloudfront.net/agnes/resources/lightbox/dist/default-skin/default-skin.css"
+      href="{% static 'css/library/photoswipe.css' %}"
       type="text/css"
     />
-
-    <script
-      type="text/javascript"
-      src="https://d2y1pz2y630308.cloudfront.net/agnes/resources/scripts/production.js"
-    ></script>
-
-    <script
-      type="text/javascript"
-      src="https://d2y1pz2y630308.cloudfront.net/agnes/resources/scripts/moment.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://d2y1pz2y630308.cloudfront.net/agnes/resources/scripts/moment-timezone-with-data-2012-2022.js"
-    ></script>
+    <link
+      rel="stylesheet"
+      href="{% static 'css/library/default-skin.css' %}"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="{% static 'css/application.css' %}"
+      type="text/css"
+    />
   </head>
   <body>
     <div>
