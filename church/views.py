@@ -6,8 +6,10 @@ from .models import *
 def home(request):
     introduction = Introduction.objects.last()
     facebook_links = FacebookLink.objects.all()[:6]
+    prayer = PrayerAfterMass.objects.last()
 
-    context = {'introduction': introduction, 'facebook_links': facebook_links}
+    context = {'introduction': introduction,
+               'facebook_links': facebook_links, 'prayer': prayer}
     return render(request, 'homepage/homepage.html', context)
 
 

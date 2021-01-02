@@ -7,7 +7,7 @@ class PrayerAfterMass(models.Model):
     updated_at = models.DateTimeField(auto_now=True, null=False)
 
     def __str__(self):
-        return self.name
+        return self.title
 
     class Meta:
         db_table = 'prayer_after_mass'

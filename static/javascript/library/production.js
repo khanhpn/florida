@@ -26,12 +26,6 @@ $ec(document).ready(function() {
 			$ec('#navicon').click(function() {
 				$ec('body').toggleClass('mobilePanelActive');
 				prod.navCollapsibleOpenSelected($ec('#mobileNav'));
-				//if possible, scroll to current page at vertical center of mobile panel
-				var center = $ec('#mobilePanel').height()/2;
-			    var top = $ec('#mobileNav .sideNavCurrent').offset().top;
-			    if (top > center){
-			        $ec('#mobilePanel').scrollTop(top-center);
-			    }
 				return false;
 			});
 			$ec('.navCollapsible > ul').slideToggle(0).slideToggle(0); //CSS initializes to off, this toggles it ->on->off so it is ready to be used
