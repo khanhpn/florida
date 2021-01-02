@@ -101,8 +101,13 @@
       type="text/css"
     />
   </head>
-  <body>
-    <div>
+  <body baseUrl="/" class="ecatholic pageTypeHome">
+    <div
+      id="background"
+      class="noPageImage hasSocialMedia hasPageTitle hasFooterText hasSlideshow hasSections"
+    >
+      <!-- used primarily for the background of the site -->
+      <div id="massModePlaceholder" getUrl="/getMassMode"></div>
       {% include "shared/header.html" %}
       <div>{% block content %} {% endblock %}</div>
       {% include "shared/footer.html" %}
