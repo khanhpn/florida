@@ -2,12 +2,13 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import *
 
-# Create your views here.
-
 
 def home(request):
     introduction = Introduction.objects.last()
-    return render(request, 'homepage/homepage.html', {'introduction': introduction})
+    facebook_links = FacebookLink.objects.all()[:6]
+
+    context = {'introduction': introduction, 'facebook_links': facebook_links}
+    return render(request, 'homepage/homepage.html', context)
 
 
 def product(request):

@@ -23,38 +23,13 @@
                 </header>
 
                 <ul class="aggregate moduleBody">
+                  {% for fb in facebook_links %}
                   <li class="link group">
-                    <a
-                      class="name"
-                      href="https://www.facebook.com/STMATTSA/"
-                      target="_blank"
-                      >LIVE STREAM 5:30 PM SATURDAYS - VIGIL MASS</a
+                    <a class="name" href="{{ fb.link_detail }}" target="_blank"
+                      >{{ fb.title }}</a
                     >
                   </li>
-                  <li class="link group">
-                    <a
-                      class="name"
-                      href="https://www.facebook.com/STMATTSA/"
-                      target="_blank"
-                      >LIVE STREAM 5:30 PM SATURDAYS - VIGIL MASS</a
-                    >
-                  </li>
-                  <li class="link group">
-                    <a
-                      class="name"
-                      href="https://www.facebook.com/STMATTSA/"
-                      target="_blank"
-                      >LIVE STREAM 5:30 PM SATURDAYS - VIGIL MASS</a
-                    >
-                  </li>
-                  <li class="link group">
-                    <a
-                      class="name"
-                      href="https://www.facebook.com/STMATTSA/"
-                      target="_blank"
-                      >LIVE STREAM 1:00PM SUNDAYS - MISA ESPAÑOLA</a
-                    >
-                  </li>
+                  {% endfor %}
                 </ul>
                 <footer></footer>
               </div>
