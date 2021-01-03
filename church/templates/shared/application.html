@@ -109,9 +109,9 @@
     >
       <!-- used primarily for the background of the site -->
       <div id="massModePlaceholder" getUrl="/getMassMode"></div>
-      {% include "shared/header.html" %}
+      {% include "shared/header.html" with introduction=introduction %}
       <div>{% block content %} {% endblock %}</div>
-      {% include "shared/footer.html" %}
+      {% include "shared/footer.html" with introduction=introduction %}
     </div>
   </body>
 </html>

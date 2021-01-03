@@ -37,3 +37,10 @@
 .btn-more:active {
   box-shadow: 1px 3px #ee5c79;
 }
+
+/* footer */
+.footer-introduction-address {
+  white-space: pre-line;
+  margin: 0;
+  padding: 0;
+}

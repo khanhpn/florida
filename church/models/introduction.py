@@ -10,6 +10,8 @@ class Introduction(models.Model):
     phone = models.TextField(max_length=90000, null=True)
     office_hours = models.TextField(max_length=90000, null=True)
     logo = models.FileField(upload_to='uploads/%Y/%m/%d/', max_length=100)
+    facebook_url = models.TextField(max_length=90000, null=True)
+    copywrite = models.TextField(max_length=90000, null=True)
     created_at = models.DateTimeField(auto_now_add=False)
     updated_at = models.DateTimeField(auto_now=False)
 
