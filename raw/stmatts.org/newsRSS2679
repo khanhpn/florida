@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>St. Matthew Catholic Church</title>
+		<link>https://stmatts.org/news?page=1</link>
+		<description>News - Home</description>
+		<atom:link href="https://stmatts.org/newsRSS?page=1" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Construction Update</title>
+				
+				
+					<link>https://spaces.hightail.com/space/VrhVBgbwuB</link>
+				
+				
+					<description>Click for more information. Ribbon Cutting and Dedication January 28, 2019 at 9:00 am, see calendar for details. Bricks are in - come and see at the front entrance to the New Athletic Center.</description>
+				
+				
+				<guid isPermaLink="false">https://stmatts.org/news/construction-update-2</guid>
+				<pubDate>Wed, 07 Nov 2018 00:00:00 -0600</pubDate>
+			</item>
+		
+			<item>
+				<title>Women&apos;s ACTS Retreat</title>
+				
+					<link>https://stmatts.org/news/womens-acts-retreat</link>
+				
+				
+				
+					<description>Click for more information.</description>
+				
+				
+				<guid isPermaLink="false">https://stmatts.org/news/womens-acts-retreat</guid>
+				<pubDate>Sat, 04 Aug 2018 00:00:00 -0500</pubDate>
+			</item>
+		
+			<item>
+				<title>CYO Sign-Up Day!</title>
+				
+				
+					<link>http://www.stmattscyo.com/registrarr</link>
+				
+				
+					<description>Click for more information.</description>
+				
+				
+				<guid isPermaLink="false">https://stmatts.org/news/cyo-sign-up-day</guid>
+				<pubDate>Sat, 04 Aug 2018 00:00:00 -0500</pubDate>
+			</item>
+		
+			<item>
+				<title>Construction Update!</title>
+				
+				
+					<link>https://spaces.hightail.com/space/VrhVBgbwuB</link>
+				
+				
+					<description>Click for more information.</description>
+				
+				
+				<guid isPermaLink="false">https://stmatts.org/news/construction-update-1</guid>
+				<pubDate>Tue, 10 Jul 2018 00:00:00 -0500</pubDate>
+			</item>
+		
+			<item>
+				<title>Construction Update</title>
+				
+				
+					<link>https://spaces.hightail.com/space/VrhVBgbwuB</link>
+				
+				
+					<description>Click for more information.</description>
+				
+				
+				<guid isPermaLink="false">https://stmatts.org/news/construction-update</guid>
+				<pubDate>Mon, 29 Jan 2018 00:00:00 -0600</pubDate>
+			</item>
+		
+			<item>
+				<title>St. Matthew Parish and School Milestone!</title>
+				
+					<link>https://stmatts.org/news/st-matthew-parish-and-school-milestone</link>
+				
+				
+				
+					<description>Click for more information.</description>
+				
+				
+				<guid isPermaLink="false">https://stmatts.org/news/st-matthew-parish-and-school-milestone</guid>
+				<pubDate>Mon, 29 Jan 2018 00:00:00 -0600</pubDate>
+			</item>
+		
+			<item>
+				<title>No confessions on November 4th: Due to the Archdiocese &apos;The Assembly&apos; Conference.</title>
+				
+					<link>https://stmatts.org/news/no-confessions-on-november-4th-archdiocese-assembly</link>
+				
+				
+				
+				
+					<description></description>
+				
+				<guid isPermaLink="false">https://stmatts.org/news/no-confessions-on-november-4th-archdiocese-assembly</guid>
+				<pubDate>Sun, 29 Oct 2017 00:00:00 -0500</pubDate>
+			</item>
+		
+	</channel>
+</rss>

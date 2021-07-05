@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+stmatts.org	TRUE	/	FALSE	1999999999	JSESSIONID	624EEABDFF4E2C83F9FACCFF9429C0FF
+

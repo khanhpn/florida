@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>St. Matthew Catholic Church</title>
+		<link>https://stmatts.org/news?page=163900</link>
+		<description>News - YC3 
+<br />Young Catholic Christian Community</description>
+		<atom:link href="https://stmatts.org/newsRSS?page=163900" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>

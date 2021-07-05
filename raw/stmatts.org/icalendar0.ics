@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//stmatts.org//eCatholic//EN
+X-WR-TIMEZONE:LocalTZ
+BEGIN:VTIMEZONE
+TZID:LocalTZ
+X-LIC-LOCATION:LocalTZ
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:LocalTZ
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:LocalTZ
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1573956@stmatts.org
+DTSTART;VALUE=DATE:20210716
+DTEND;VALUE=DATE:20210717
+SUMMARY:Catholic Women's Conference
+DESCRIPTION:Conference is on July 16th & July 17th\, both virtual and in-p
+ erson. Please click here or see the latest bulletin for more information.
+END:VEVENT
+BEGIN:VEVENT
+UID:1587114@stmatts.org
+DTSTART:20210714T190000
+DTEND:20210714T210000
+SUMMARY:Altar Server Training
+DESCRIPTION:Are you interested in becoming an Altar Server? Please click h
+ ere for more information on the training!
+END:VEVENT
+BEGIN:VEVENT
+UID:1587127@stmatts.org
+DTSTART:20210717T090000
+DTEND:20210717T210000
+SUMMARY:Spoken High School Day Retreat
+DESCRIPTION:We are so excited to be having an all day retreat this summer 
+ for any teen in the 9-12th grade. This year\, our retreat is called Spoken
+ ! Spoken leads teens through the Scriptures and offers unique encounters w
+ ith God through prayer and the sacraments so that they live rooted in His 
+ Word. This is a great time for teens to share their faith and have fun! We
+  will also be providing lunch and dinner for every retreat attendee. Click
+  here to sign up!
+END:VEVENT
+END:VCALENDAR
