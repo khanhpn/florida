@@ -14,6 +14,9 @@ https://www.python.org/
 
 # How to install this project
 
+https://kipalog.com/posts/Gioi-thieu-Virtual-Environment-trong-Python
+https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-connect-it-to-a-database
+
 ### Step0 - Install environment
 
 - brew install pyenv
@@ -23,6 +26,7 @@ https://www.python.org/
 
 ### Step1 - Install library
 
+- pip3 install psycopg2
 - pip install django-environ
 - pip install django
   https://stackpython.medium.com/how-to-start-django-project-with-a-database-postgresql-aaa1d74659d8
