@@ -10842,3 +10842,6 @@ body.mobilePanelActive #background #socialMedia {
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
+.extra-caption {
+  height: 300px;
+}
