@@ -29,8 +29,9 @@ https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-
 ### Step1 - Install library
 
 - pip3 install psycopg2
-- pip install django-environ
-- pip install django
+- pip3 install django-ckeditor 
+- pip3 install django-environ
+- pip3 install django
   https://stackpython.medium.com/how-to-start-django-project-with-a-database-postgresql-aaa1d74659d8
 
 ### Step2 - Start server
