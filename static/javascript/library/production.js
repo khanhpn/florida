@@ -38,7 +38,7 @@ $ec(document).ready(function() {
 				event.preventDefault();
 				prod.navCollapsibleClick($ec(this).closest('.navCollapsible'));
 			});
-			
+
 			prod.resizeModules($ec('body')); //this was moved to the ready event to prevent videos from changing size on the screen
 			// run here at page load to mitigate the delay of a slow computer
 			prod.paymentForm.init();
@@ -303,7 +303,7 @@ prod.setupMassMode = function() {
 				//get the current date/time in the site time zone
 				var timeZoneID = container.find('#massModeToday').data('timezone');
 				var currentDateTime = new Date(new Date().toLocaleString("en-US", {timeZone: timeZoneID}));
-				
+
 				var day = null;
 				var vigil = null;
 				container.find('#massModeToday .massModeTimes').each(function() {
@@ -321,7 +321,7 @@ prod.setupMassMode = function() {
 					}
 					$ec(this).remove();
 				});
-				
+
 				if(day !== null) {
 					//remove vigil times
 					day.find(".day[class*='VIGIL']").each(function() {
@@ -2577,11 +2577,11 @@ function prettyDate(time){
 }
 
 /**
- * 
+ *
  * Secure Hash Algorithm (SHA256) http://www.webtoolkit.info/
- * 
+ *
  * Original code by Angel Marin, Paul Johnston.
- * 
+ *
  */
 
 function SHA256(s){

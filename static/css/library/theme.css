@@ -10842,3 +10842,9 @@ body.mobilePanelActive #background #socialMedia {
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
+span.captionContent.captionContent-elipsis {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  overflow: hidden !important;
+  -webkit-box-orient: vertical !important;
+}
