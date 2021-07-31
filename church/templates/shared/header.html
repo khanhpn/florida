@@ -1,3 +1,4 @@
+{% load static %}
 <!-- used primarily for the background of the site -->
 <div id="massModePlaceholder" getUrl="/getMassMode"></div>
 <div id="headerBackground">
@@ -12,12 +13,11 @@
     <div id="siteLogo" class="moduleContainer logoOnly">
       <div class="moduleInner">
         <div id="siteLogoBody">
-          <a href="index.html"
-            ><img
-              src="https://d2y1pz2y630308.cloudfront.net/15071/pictures/2020/1/headerLogo_03.png"
-              alt="St. Matthew Catholic Church"
-              style="left: 0px; top: 0px"
-          /></a>
+          <a href="index.html">
+            <img src={% static 'images/logo/saint_john.png' %} alt="Saint John
+            the Evangelist" style="left: 0px; top: 0px; width: 106px; height:
+            128px">
+          </a>
         </div>
       </div>
     </div>

@@ -4,11 +4,8 @@
     <div id="footerText" class="moduleContainer footerText1 footerText">
       <div class="moduleInner">
         <div id="footerTextBody" class="footerTextBody1 footerTextBody">
-          <img
-            alt="footer logo"
-            class="footerLogo"
-            src="{% static 'images/design/footerLogo_03.png' %}"
-          />
+          <img alt="footer logo" class="footerLogo" src="{% static 'images/logo/saint_john.png' %}"
+            style="width: 144px; height: 174px" />
           <div class="container">
             <div class="column">
               <div class="footer-introduction-address">
@@ -18,8 +15,7 @@
             <div class="column">
               <p>
                 <a class="footerWhiteLink" href="tel:1-210-478-5000">
-                  {{ introduction.phone }} </a
-                ><br />
+                  {{ introduction.phone }} </a><br />
                 <a href="mailto:{{ introduction.email }}">
                   {{ introduction.email }}
                 </a>
@@ -34,31 +30,15 @@
           </div>
            
           <div class="footerLinksRow">
-            <a href="http://www.vatican.va/content/vatican/en.html"
-              ><img
-                alt="Vatican"
-                src="{% static 'images/design/footerIcon1_03.png' %}"
-            /></a>
-            <a href="https://www.archsa.org/"
-              ><img
-                alt="Archdiocese of San Antonio"
-                src="{% static 'images/design/footerIcon2_03.png' %}"
-            /></a>
-            <a href="http://www.usccb.org/"
-              ><img
-                alt="USCCB"
-                src="{% static 'images/design/footerIcon3_03.png' %}"
-            /></a>
-            <a href="https://smcssa.org/"
-              ><img
-                alt="School"
-                src="{% static 'images/design/footerIcon4_03.png' %}"
-            /></a>
-            <a href="https://www.catholicnewsagency.com/" target="_blank"
-              ><img
-                alt="Catholic News"
-                src="{% static 'images/design/footerIcon5_03.png' %}"
-            /></a>
+            <a href="http://www.vatican.va/content/vatican/en.html"><img alt="Vatican"
+                src="{% static 'images/design/footerIcon1_03.png' %}" /></a>
+            <a href="https://www.archsa.org/"><img alt="Archdiocese of San Antonio"
+                src="{% static 'images/design/footerIcon2_03.png' %}" /></a>
+            <a href="http://www.usccb.org/"><img alt="USCCB"
+                src="{% static 'images/design/footerIcon3_03.png' %}" /></a>
+            <a href="https://smcssa.org/"><img alt="School" src="{% static 'images/design/footerIcon4_03.png' %}" /></a>
+            <a href="https://www.catholicnewsagency.com/" target="_blank"><img alt="Catholic News"
+                src="{% static 'images/design/footerIcon5_03.png' %}" /></a>
           </div>
           <div class="copyright">
             {{ introduction.copywrite }}

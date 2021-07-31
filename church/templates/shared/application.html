@@ -5,10 +5,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>St. Matthew Catholic Church - San Antonio, TX</title>
+    <title>Saint John the Evangelist</title>
     <meta
       name="description"
-      content="The mission of St. Matthew Catholic Church is to be a welcoming community that encounters Christ through prayer, sacraments, and charitable service."
+      content="The mission of Saint John the Evangelist is to be a welcoming community that encounters Christ through prayer, sacraments, and charitable service."
     />
     <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" />
     <script
@@ -17,7 +17,7 @@
     ></script>
     <script>
       var $ec = jQuery.noConflict();
-      var $ = $ec; // Reassigns the $ to jQuery, but can be overwritten if another version of jQuery is loaded
+      var $ = $ec;
     </script>
     <script
       src="{% static 'javascript/library/jquery-ui-1.12.1.custom.min.js' %}"
@@ -105,7 +105,14 @@
   <body baseUrl="/" class="ecatholic pageTypeHome">
     <div
       id="background"
-      class="noPageImage hasSocialMedia hasPageTitle hasFooterText hasSlideshow hasSections"
+      class="
+        noPageImage
+        hasSocialMedia
+        hasPageTitle
+        hasFooterText
+        hasSlideshow
+        hasSections
+      "
     >
       <!-- used primarily for the background of the site -->
       <div id="massModePlaceholder" getUrl="/getMassMode"></div>
