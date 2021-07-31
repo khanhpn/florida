@@ -23,6 +23,8 @@ https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-
 - pyenv install 3.9.6
 - pyenv global 3.9.6 # set global python
 - pyenv version
+- source florida/bin/activate
+- deactivate
 
 ### Step1 - Install library
 
