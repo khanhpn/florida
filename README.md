@@ -34,8 +34,8 @@ https://www.digitalocean.com/community/tutorials/how-to-create-a-django-app-and-
   https://stackpython.medium.com/how-to-start-django-project-with-a-database-postgresql-aaa1d74659d8
 
 ### Step2 - Start server
-
-- python manage.py migrate
+- python manage.py makemigrations church
+- python manage.py migrate church
 - python manage.py createsuperuser
 - python3 manage.py runserver
 
