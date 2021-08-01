@@ -1,10 +1,10 @@
 from django.db import models
-from tinymce.models import HTMLField
 
 
 class ConfressionTime(models.Model):
-    calendar_confression = HTMLField()
-    content_confression = HTMLField()
+    calendar_confression = models.TextField(max_length=90000, null=True)
+    content_confression = models.TextField(max_length=90000, null=True)
+    content_adoration = models.TextField(max_length=90000, null=True)
     created_at = models.DateTimeField(auto_now_add=True, null=False)
     updated_at = models.DateTimeField(auto_now=True, null=False)
 

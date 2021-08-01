@@ -9,13 +9,15 @@ def home(request):
     prayer = PrayerAfterMass.objects.last()
     youtube_mass = YoutubeMass.objects.all()[:6]
     confression_time = ConfressionTime.objects.last()
+    mass_time = MassTime.objects.last()
 
     context = {
         'introduction': introduction,
         'facebook_links': facebook_links,
         'prayer': prayer,
         'youtube_mass': youtube_mass,
-        'confression_time': confression_time
+        'confression_time': confression_time,
+        'mass_time': mass_time
     }
     return render(request, 'homepage/homepage.html', context)
 

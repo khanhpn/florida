@@ -1,10 +1,11 @@
 from django.db import models
 
 
-class VideMisa(models.Model):
+class MassTime(models.Model):
     title = models.TextField(max_length=900000, null=True)
-    url_detail = models.TextField(max_length=900000, null=True)
-    position = models.IntegerField(null=True)
+    calendar_notices = models.TextField(max_length=900000, null=True)
+    special_notices = models.TextField(max_length=900000, null=True)
+
     created_at = models.DateTimeField(auto_now_add=True, null=False)
     updated_at = models.DateTimeField(auto_now=True, null=False)
 
@@ -12,5 +13,5 @@ class VideMisa(models.Model):
         return self.title
 
     class Meta:
-        db_table = 'video_misa'
+        db_table = 'mass_time'
         app_label = 'church'
