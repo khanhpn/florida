@@ -7,3 +7,4 @@ from .confession_time import *
 from .mass_time import *
 from .linked_church import *
 from .activity_image import *
+from .activity import *

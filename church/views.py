@@ -11,7 +11,7 @@ def home(request):
     confression_time = ConfressionTime.objects.last()
     mass_time = MassTime.objects.last()
     linked_church = LinkedChurch.objects.all()
-    activity_image = ActivityImage.objects.all()[:6]
+    activity_image = Activity.objects.all()[:6]
 
     context = {
         'introduction': introduction,
