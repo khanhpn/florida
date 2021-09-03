@@ -1,9 +1,8 @@
 from django.db import models
 
 
-class FacebookLink(models.Model):
+class ActivityImage(models.Model):
     title = models.TextField(max_length=90000, null=False)
-    link_detail = models.TextField(max_length=90000, null=True)
     file_upload = models.FileField(upload_to='uploads/%Y/%m/%d/', null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True, null=False)
     updated_at = models.DateTimeField(auto_now=True, null=False)
@@ -12,6 +11,6 @@ class FacebookLink(models.Model):
         return self.title
 
     class Meta:
-        db_table = 'facebook_link'
+        db_table = 'activity_image'
         app_label = 'church'
         ordering = ('-created_at',)

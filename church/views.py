@@ -11,6 +11,7 @@ def home(request):
     confression_time = ConfressionTime.objects.last()
     mass_time = MassTime.objects.last()
     linked_church = LinkedChurch.objects.all()
+    activity_image = ActivityImage.objects.all()[:6]
 
     context = {
         'introduction': introduction,
@@ -19,7 +20,8 @@ def home(request):
         'youtube_mass': youtube_mass,
         'confression_time': confression_time,
         'mass_time': mass_time,
-        'linked_church': linked_church
+        'linked_church': linked_church,
+        'activity_image': activity_image
     }
     return render(request, 'homepage/homepage.html', context)
 
